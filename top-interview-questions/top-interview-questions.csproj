@@ -22,7 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="easy-collection\" />
     <Folder Include="hard-collection\" />
     <Folder Include="medium-collection\" />
   </ItemGroup>
