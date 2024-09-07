@@ -1,3 +1,6 @@
+using System;
+using Xunit;
+
 namespace top_interview_questions.easy_collection;
 
 // https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/
@@ -5,7 +8,7 @@ public class RemoveDuplicatesFromSortedArray
 {
     private static int Solution(int[] nums){
         var len = nums.Length;
-        var last = -1;
+        var last = Int32.MinValue;
         var cont = 0;
         
         for (var i = 0; i < len; i++) {
