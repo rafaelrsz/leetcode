@@ -1,7 +1,7 @@
 using Xunit;
 
 namespace top_interview_questions.easy_collection;
-
+// https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/646/
 public class RotatedArray
 {
     private static void Solution(int[] nums, int k)
